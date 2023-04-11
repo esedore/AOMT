@@ -1,10 +1,41 @@
 body {
-    background: rgb(2,0,36);
-    background: linear-gradient(180deg, rgba(2,0,36,1) 36%, rgba(9,9,121,1) 60%, rgba(0,78,255,1) 100%); 
+    background: linear-gradient(180deg, rgba(2,0,36,1) 30%, rgba(9,9,121,1) 60%, rgba(0,78,255,1)100%); 
+    height: 100%;
+    margin: 5;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
-.options{
-    box-shadow: rgb(rgb(166, 14, 172));
+.option-1{
+    background-color: rgb(rgb(166, 14, 172));
     color: white;
     font-family: cursive;
     align-items: left;
+    font-size: 30px;
+    padding: 30px;
+    font-style: italic;
+}
+.option-2{
+    background-color: rgb(rgb(166, 14, 172));
+    color: white;
+    font-family: cursive;
+    align-items: left;
+    font-size: 30px;
+    padding: 30px;
+    font-style: italic;
+}
+.option-3{
+    background-color: rgb(rgb(166, 14, 172));
+    color: white;
+    font-family: cursive;
+    align-items: left;
+    font-size: 30px;
+    padding: 30px;
+    font-style: italic;
+}
+.header{
+    color: white;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    text-shadow:green 2px 2px;
+    font-size: 40px;
 }
