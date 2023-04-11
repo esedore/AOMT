@@ -1,0 +1,10 @@
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 36%, rgba(9,9,121,1) 60%, rgba(0,78,255,1) 100%); 
+}
+.options{
+    box-shadow: rgb(rgb(166, 14, 172));
+    color: white;
+    font-family: cursive;
+    align-items: left;
+}
